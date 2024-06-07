@@ -48,4 +48,9 @@ const router = createRouter({
   routes
 })
 
+// const router = new VueRouter({
+//   mode: 'history',
+//   routes: [...]
+// })
+
 export default router
