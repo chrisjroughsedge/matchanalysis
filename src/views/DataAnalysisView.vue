@@ -3,7 +3,6 @@
       <!-- <img alt="Vue logo" src="../assets/logo.png"> -->
       <DataAnalysis msg="Data Analysis"/>
     </div>
-    <img v-bind:src="require('../assets/logo.png')" @click="onClick()" />
   </template>
   
   <script>

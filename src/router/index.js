@@ -5,6 +5,8 @@ import DataAnalysisView from '../views/DataAnalysisView.vue'
 import CodeWindowView from '../views/CodeWindowView.vue'
 import CodeWindowConfigView from '../views/CodeWindowConfigView.vue'
 import ReportingView from '../views/ReportingView.vue'
+import AboutMeView from '../views/AboutMeView.vue'
+import SoftwareView from '../views/SoftwareView.vue'
 
 const routes = [
   {
@@ -36,10 +38,20 @@ const routes = [
     name: 'about',
     component: AboutView
   },
+  {
+    path: '/aboutme',
+    name: 'aboutme',
+    component: AboutMeView
+  },
   { 
     path: '/reporting',
     name: 'reporting',
     component: ReportingView
+  },
+  { 
+    path: '/software',
+    name: 'software',
+    component: SoftwareView
   }
 ]
 
