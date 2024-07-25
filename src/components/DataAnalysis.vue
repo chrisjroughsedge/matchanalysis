@@ -67,7 +67,7 @@
               Data analysis from a snapshot of data from the European Championship 2024
           </div>
           <div class="col-sm">
-              <router-link class="btn btn-primary btn-lg" target="_blank" href="/dataanalysisreport"><img src="../assets/da_summary.png" width="586" height="369"/></router-link>
+              <router-link class="btn btn-primary btn-lg" target="_blank" href="/dataanalysisreport"><img src="../assets/datasummary.png" width="586" height="369"/></router-link>
           </div>
       </div>  
 
