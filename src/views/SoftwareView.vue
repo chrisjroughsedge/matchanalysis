@@ -1,8 +1,8 @@
 <template>
-    <div id="container">
+    <div id="container" :style="{ backgroundImage: 'url(' + require('../assets/pitch.jpg') + ')'}">
 
 
-      <div class="jumbotron" style="background-color: white; color: #38404B;">
+      <div class="jumbotron" style="background-color: transparent;padding:40px;margin: 0;">
         <h1 class="display-4">Software</h1>
         <p class="lead">
           Custom built software to gain the competitive edge. Creating code windows inline with playing objectives, capturing clips to be re-played to the team and creating data 
@@ -29,7 +29,7 @@
       </p>
     </div>
 
-    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B; margin-left:40px;margin-right:200px">
       <div class="row">
           <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
             <h1 class="display-4">Capture videos and <br />game events</h1>
@@ -45,7 +45,7 @@
       </p>
     </div>
 
-    <div class="jumbotron">
+    <div class="jumbotron" style="margin-bottom: 0px;padding-bottom:10px">
       <div class="row">
           <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
             <h1 class="display-4">Transform data <br />capture</h1>
@@ -76,7 +76,8 @@ a, a:hover {
   background-color: #38404B; 
   border-radius: 25px;
   color: #F2F2F2;
-  margin-bottom: 40px;
+  margin: 40px;
+  margin-left:200px
 }
 
 .col-sm {

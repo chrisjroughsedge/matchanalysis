@@ -1,7 +1,7 @@
 <template>
-<div id="container">
+<div id="container" :style="{ backgroundImage: 'url(' + require('../assets/pitch.jpg') + ')'}">
 
-  <div class="jumbotron" >
+  <div class="jumbotron" style="background-color: transparent; color: #F2F2F2;padding:40px;margin: 0;" >
       <h1 class="display-4">About me</h1>
       <p class="lead">
         My skills and achievements

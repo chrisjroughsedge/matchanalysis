@@ -1,8 +1,7 @@
 <template>
-    <div id="container">
+    <div id="container" :style="{ backgroundImage: 'url(' + require('../assets/pitch.jpg') + ')'}">
 
-
-      <div class="jumbotron" style="background-color: white; color: #38404B;">
+      <div class="jumbotron" style="background-color: transparent; padding:40px;margin: 0;">
         <h1 class="display-4">Data Analysis</h1>
         <p class="lead">
           Gaining game winning insight using data analysis to gain a competitive edge. Taking StatsBomb, Wyscout, GPS and custom generated data to analyse player performance and areas for improvement
@@ -29,7 +28,7 @@
       </p>
     </div>
 
-    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B; margin-right: 200px; margin-left:40px">
       <div class="row">
           <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
             <h1 class="display-4">Custom player<br />tracking</h1>
@@ -45,11 +44,11 @@
       </p>
     </div>
 
-    <div class="jumbotron">
+    <div class="jumbotron" style="margin-bottom: 0px;padding-bottom:10px">
       <div class="row">
           <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
-            <h1 class="display-4">Data analysis report <br />snapshot</h1>
-            Small sample report from 2022 World cup
+            <h1 class="display-4">Data analysis report <br />snapshot sample</h1>
+            Small sample of a report from 2022 World cup
           </div>
           <div class="col-sm">
               <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/presentation/d/12QC4PqUgynXJUOsmOrgazC4eovsA2_Ba/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true"><img src="../assets/pass-data.png" width="627" height="302"/></a>
@@ -61,18 +60,25 @@
       </p>
     </div>
 
-      <!-- <div class="jumbotron" style="background-color: gray; opacity: 0.8" >
-      <h1 class="display-4">Data Analysis</h1>
-      <p class="lead">
-        
-      </p>
-      <hr class="my-4">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B; margin-right: 200px; margin-left:40px;margin-bottom: 0px;padding-bottom:10px">
+      <div class="row">
+          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+            <h1 class="display-4">Data analysis<br />report sample</h1>
+              Data analysis from a snapshot of data from the European Championship 2024
+          </div>
+          <div class="col-sm">
+              <router-link class="btn btn-primary btn-lg" target="_blank" href="/dataanalysisreport"><img src="../assets/da_summary.png" width="586" height="369"/></router-link>
+          </div>
+      </div>  
+
       
       <p class="lead">
-        <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/presentation/d/12QC4PqUgynXJUOsmOrgazC4eovsA2_Ba/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true" role="button" style="padding:20px;margin:3%;">Sample data report</a>
       </p>
-    </div> -->
     </div>
+
+  </div>
+
+    
   
 
 
@@ -103,7 +109,8 @@ a, a:hover {
   background-color: #38404B; 
   border-radius: 25px;
   color: #F2F2F2;
-  margin-bottom: 40px;
+  margin: 40px;
+  margin-left:200px;
 }
 
 .col-sm {

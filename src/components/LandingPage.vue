@@ -1,38 +1,39 @@
 <template>
-  <div id="container">
-    <div class="jumbotron">
+  <div id="container" :style="{ backgroundImage: 'url(' + require('../assets/pitch.jpg') + ')'}">
+    <div class="jumbotron" style="background-color: transparent;padding:40px;margin: 0;">
       <h1 class="display-4" style="padding-top: 50px;">Match analysis</h1>
       <hr class="my-4">
-      <p class="lead" style="padding-bottom: 50px;;">
-        The home of match analysis. Taking analysis to the next level. <br />Using a combination of AI, manual quality checks and football insight to provide a 
-        service tailored to your needs.
+      <p class="lead" style="padding-bottom: 50px;">
+        Football and match analysis comprises of lots of different areas of analysis. I have been conducting analysis in all forms over the last 3 years, more 
+        prominantly in data and opposition analysis.
       </p>
     </div>
     
       <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B">
         <div class="row">
             <div class="col-sm-4" style="margin-left: 50px; margin-top: 20px;padding:50px">
-              <h1 class="display-4">What we do</h1>
+              <h1 class="display-4">Data analysis</h1>
             </div>
             <div class="col-sm-6" style="padding:50px">
-                We specialize in analysis at any level. Our bespoke service means that you can adapt what we do to match your club and playing philosophies. 
-                Having worked with football clubs at different levels we think we have a competitive advantage as not only do we understand football, we also
-                have the technical expertise to offer a full service tailored to your needs.
+                Data is captured in lots of different ways from different football platforms. GPS data is now captured along with event data. I have been 
+                working primarily with StatsBomb data but have also used Wyscout data and GPS data. The issue with data commonly available at the moment 
+                is that there is no context so a pass completed doesn't mean a lot without the context. This is where combining GPS and event data comes in handy. Not just
+                that but using my own custom build data capture tools I can also capture the context of any given event without access to that platform owned data.
             </div>
         </div>  
         <p class="lead">
         </p>
       </div>
 
-      <div class="jumbotron">
+      <div class="jumbotron" style="margin-right:200px;margin-left:40px">
       <div class="row">
           <div class="col-sm-6" style="margin-left: 50px; margin-top: 20px;padding: 50px;">
-              We are currently a one man band honing our service to ensure we can offer the clubs we work with the best possible experience. 
-              Over the last few years we have been gaining valuable experience working with football clubs and understanding how they operate
-              to ensure we can offer a full and rounded service.
+              Opposition and team analysis is increasingly more important in todays game. The ability to scrutinise opposition teams providing strengths and
+              weaknesses to the coaching staff can be the difference between winning and losing. I have been providing reports over the last 3 years for clubs 
+              in the MLS, EFL2, EFL1 and more recently in the National League. 
           </div>
           <div class="col-sm-4">
-            <h1 class="display-4" style="padding:50px">Who we are</h1>
+            <h1 class="display-4" style="padding:50px">Opposition and team analysis</h1>
           </div>
       </div>  
       <p class="lead">
@@ -40,7 +41,7 @@
     </div>
 
 
-    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B;margin-bottom: 0px;padding-bottom:10px">
         <div class="row">
             <div class="col-sm-4" style="margin-left: 50px; margin-top: 20px;padding:50px">
               <h1 class="display-4">Contact us</h1>
@@ -66,7 +67,8 @@
   background-color: #38404B; 
   border-radius: 25px;
   color: #F2F2F2;
-  margin-bottom: 40px;
+  margin: 40px;
+  margin-left:200px
 }
 </style>
 
