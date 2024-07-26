@@ -14,12 +14,12 @@
 
     <div class="jumbotron">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding:50px">
             <h1 class="display-4">Advanced data <br />analysis</h1>
             Meaningful analysis of StatsBomb, WyScout event data, GPS tracking data and custom data. Combine event data and GPS tracking data to gain competitive edge.
           </div>
           <div class="col-sm">
-              <img src="../assets/data_sample.png" width="798" height="462"/>
+              <img src="../assets/data_sample.png" width="100%" height="auto"/>
           </div>
       </div>  
 
@@ -28,14 +28,14 @@
       </p>
     </div>
 
-    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B; margin-right: 200px; margin-left:40px">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B;">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding: 50px;">
             <h1 class="display-4">Custom player<br />tracking</h1>
               Custom tracking software to track player movements and ball position through game clips. Enabling accurate data capture for analysis. 
           </div>
           <div class="col-sm">
-              <img src="../assets/tracking.png" width="708" height="296"/>
+              <img src="../assets/tracking.png" width="100%" height="auto"/>
           </div>
       </div>  
 
@@ -46,12 +46,12 @@
 
     <div class="jumbotron" style="margin-bottom: 0px;padding-bottom:10px">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding: 50px;">
             <h1 class="display-4">Data analysis report <br />snapshot sample</h1>
             Small sample of a report from 2022 World cup
           </div>
           <div class="col-sm">
-              <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/presentation/d/12QC4PqUgynXJUOsmOrgazC4eovsA2_Ba/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true"><img src="../assets/pass-data.png" width="627" height="302"/></a>
+              <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/presentation/d/12QC4PqUgynXJUOsmOrgazC4eovsA2_Ba/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true"><img src="../assets/pass-data.png" width="100%" height="auto"/></a>
           </div>
       </div>  
 
@@ -60,14 +60,14 @@
       </p>
     </div>
 
-    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B; margin-right: 200px; margin-left:40px;margin-bottom: 0px;padding-bottom:10px">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B;margin-bottom: 0px;padding-bottom:10px">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding: 50px;">
             <h1 class="display-4">Data analysis<br />report sample</h1>
               Data analysis from a snapshot of data from the European Championship 2024
           </div>
           <div class="col-sm">
-              <router-link class="btn btn-primary btn-lg" target="_blank" href="/dataanalysisreport"><img src="../assets/datasummary.png" width="586" height="369"/></router-link>
+              <router-link class="btn btn-primary btn-lg" to="/dataanalysisreport"><img src="../assets/datasummary.png" width="100%" height="auto"/></router-link>
           </div>
       </div>  
 
@@ -110,7 +110,6 @@ a, a:hover {
   border-radius: 25px;
   color: #F2F2F2;
   margin: 40px;
-  margin-left:200px;
 }
 
 .col-sm {

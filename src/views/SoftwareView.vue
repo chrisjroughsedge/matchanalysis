@@ -15,12 +15,12 @@
 
     <div class="jumbotron">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding: 50px;">
             <h1 class="display-4">Code your games<br />and training sessions</h1>
             Create a code window, upload your game or training session and code in line with your club philosophies.
           </div>
           <div class="col-sm">
-              <img src="../assets/code_window.png" width="681" height="268"/>
+              <img src="../assets/code_window.png" width="100%" height="auto"/>
           </div>
       </div>  
 
@@ -29,14 +29,14 @@
       </p>
     </div>
 
-    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B; margin-left:40px;margin-right:200px">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B;">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding: 50px;">
             <h1 class="display-4">Capture videos and <br />game events</h1>
               Capture snippets of video to analyse further whilst also recording game events that can be used to create data driven reports. 
           </div>
           <div class="col-sm">
-              <img src="../assets/data_flow.png" width="785" height="382"/>
+              <img src="../assets/data_flow.png" width="100%" height="auto"/>
           </div>
       </div>  
 
@@ -47,12 +47,12 @@
 
     <div class="jumbotron" style="margin-bottom: 0px;padding-bottom:10px">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding: 50px;">
             <h1 class="display-4">Transform data <br />capture</h1>
                 Use the data captured from the code window and provide meaninigul insight on player and team performance.
           </div>
           <div class="col-sm">
-              <img src="../assets/software-3.png" width="810" height="413"/>
+              <img src="../assets/software-3.png" width="100%" height="auto"/>
           </div>
       </div>  
 
@@ -77,7 +77,6 @@ a, a:hover {
   border-radius: 25px;
   color: #F2F2F2;
   margin: 40px;
-  margin-left:200px
 }
 
 .col-sm {

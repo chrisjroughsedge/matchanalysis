@@ -11,7 +11,7 @@
     
       <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B">
         <div class="row">
-            <div class="col-sm-4" style="margin-left: 50px; margin-top: 20px;padding:50px">
+            <div class="col-sm-4" style="padding:50px">
               <h1 class="display-4">Data analysis</h1>
             </div>
             <div class="col-sm-6" style="padding:50px">
@@ -25,9 +25,9 @@
         </p>
       </div>
 
-      <div class="jumbotron" style="margin-right:200px;margin-left:40px">
+      <div class="jumbotron">
       <div class="row">
-          <div class="col-sm-6" style="margin-left: 50px; margin-top: 20px;padding: 50px;">
+          <div class="col-sm-6" style="padding: 50px;">
               Opposition and team analysis is increasingly more important in todays game. The ability to scrutinise opposition teams providing strengths and
               weaknesses to the coaching staff can be the difference between winning and losing. I have been providing reports over the last 3 years for clubs 
               in the MLS, EFL2, EFL1 and more recently in the National League. 
@@ -43,7 +43,7 @@
 
     <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B;margin-bottom: 0px;padding-bottom:10px">
         <div class="row">
-            <div class="col-sm-4" style="margin-left: 50px; margin-top: 20px;padding:50px">
+            <div class="col-sm-4" style="padding:50px">
               <h1 class="display-4">Contact us</h1>
             </div>
             <div class="col-sm-6" style="padding:50px">
@@ -68,7 +68,6 @@
   border-radius: 25px;
   color: #F2F2F2;
   margin: 40px;
-  margin-left:200px
 }
 </style>
 

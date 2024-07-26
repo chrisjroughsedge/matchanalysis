@@ -14,12 +14,12 @@
 
     <div class="jumbotron">
       <div class="row">
-          <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+          <div class="col-sm" style="padding: 50px;">
             <h1 class="display-4">1 game observation <br />report</h1>
             Sample report from 2023/2024 season game from the National league.
           </div>
           <div class="col-sm">
-              <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/document/d/18knKUcbDPyC5lf893VteUKANdMP06yvf/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true"><img src="../assets/1-image.png" width="564" height="346"/></a>
+              <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/document/d/18knKUcbDPyC5lf893VteUKANdMP06yvf/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true"><img src="../assets/1-image.png" width="100%" height="auto"/></a>
           </div>
       </div>  
 
@@ -28,14 +28,14 @@
       </p>
     </div>
 
-    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B; margin-bottom: 0px; margin-right:200px;margin-left:60px">
+    <div class="jumbotron" style="background-color: #F2F2F2; color: #38404B;margin-bottom: 0px;padding-bottom:10px">
       <div class="row">
-        <div class="col-sm" style="margin-left: 50px; margin-top: 20px;">
+        <div class="col-sm" style="padding: 50px;">
           <h1 class="display-4">3 game observation <br />report</h1>
           Sample report from 2023/2024 season game from EFL2.
         </div>
         <div class="col-sm">
-          <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/presentation/d/11iSU-Tll9QlaM6OCOTfSm9ZqkCGu3-RF/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true"><img src="../assets/3-image.png" width="625" height="305" /></a>  
+          <a class="btn btn-primary btn-lg" target="_blank" href="https://docs.google.com/presentation/d/11iSU-Tll9QlaM6OCOTfSm9ZqkCGu3-RF/edit?usp=sharing&ouid=113336286407718545312&rtpof=true&sd=true"><img src="../assets/3-image.png" width="100%" height="auto" /></a>  
         </div>
     </div>
     </div>
@@ -56,8 +56,7 @@ a, a:hover {
   background-color: #38404B; 
   border-radius: 25px;
   color: #F2F2F2;
-  margin: 60px;
-  margin-left:200px
+  margin: 40px;
   
 }
 
