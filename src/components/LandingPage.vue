@@ -15,7 +15,7 @@
               <h1 class="display-4">Follow me</h1>
             </div>
             <div class="col-sm-6" style="padding:50px">
-                I will be posting new videos on YouTube as often as I can with the primary focus being tactical analysis in the lower leagues of English football. 
+                I will be posting new videos on <a href="https://www.youtube.com/@the-match-analyst" />YouTube</a> as often as I can with the primary focus being tactical analysis in the lower leagues of English football. 
                 The lower leagues are sadly not well represented in the media so I plan to bring focus to those leagues offering the type of analysis I over to the 
                 clubs that I report for.
             </div>
@@ -64,7 +64,7 @@
             <div class="col-sm-6" style="padding:50px">
               If you would like to contact me and talk about the analysis I do then please feel free to email me at
               any time and I will get straight back to you.<br />
-              Email: <a href="mailto:chrisjr.analyst@gmail.com">chrisjr.analyst@gmail.com</a>
+              Email: <a href="mailto:chrisjr.analyst@gmail.com">the-match-analyst@outlook.com</a>
             </div>
         </div>  
 
