@@ -15,7 +15,7 @@
               <h1 class="display-4">Follow me</h1>
             </div>
             <div class="col-sm-6" style="padding:50px">
-                I will be posting new videos on <a href="https://www.youtube.com/@the-match-analyst" />YouTube</a> as often as I can with the primary focus being tactical analysis in the lower leagues of English football. 
+                I will be posting new videos on <a href="https://www.youtube.com/@the-match-analyst">YouTube</a> as often as I can with the primary focus being tactical analysis in the lower leagues of English football. 
                 The lower leagues are sadly not well represented in the media so I plan to bring focus to those leagues offering the type of analysis I over to the 
                 clubs that I report for.
             </div>
